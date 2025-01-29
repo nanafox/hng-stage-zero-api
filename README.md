@@ -10,7 +10,11 @@ Develop a public API that returns the following information in JSON format:
 
 ## API Specification
 
-- Endpoint: `GET <url>`
+- Documentation URL:
+[https://nanafox-hng-stage-zero-6049d997f8d2.herokuapp.com/docs](https://nanafox-hng-stage-zero-6049d997f8d2.herokuapp.com/docs)
+- Swagger (Interactive Docs) URL:
+[https://nanafox-hng-stage-zero-6049d997f8d2.herokuapp.com/swagger-doc](https://nanafox-hng-stage-zero-6049d997f8d2.herokuapp.com/swagger-doc)
+- Endpoint: [https://nanafox-hng-stage-zero-6049d997f8d2.herokuapp.com](https://nanafox-hng-stage-zero-6049d997f8d2.herokuapp.com)
 - Response:
 
     ```json
@@ -43,15 +47,18 @@ To run this project locally, follow the steps below:
     pip install -r requirements.txt
     ```
 
-4. Run the application:
+4. Set the required variables in the `env` file. See `.env.template` for how to
+   set it up.
+
+5. Run the application:
 
     ```bash
     fastapi dev app/main.py
     ```
 
-5. Access the swagger documentation at [http://localhost:8000/swagger-doc](http://localhost:8000/swagger-doc)
+6. Access the swagger documentation at [http://localhost:8000/swagger-doc](http://localhost:8000/swagger-doc)
 
-6. API Documentation is available at:
+7. API Documentation is available at:
    [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## Language Stack
