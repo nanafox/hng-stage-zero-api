@@ -21,7 +21,7 @@ app = FastAPI(
     contact={
         "name": "Maxwell Nana Forson",
         "portfolio": "https://www.mnforson.live",
-        "email": "nanaforsonjnr@rmail.com",
+        "email": "nanaforsonjnr@gmail.com",
     },
     docs_url="/swagger-doc",
     redoc_url="/docs",
